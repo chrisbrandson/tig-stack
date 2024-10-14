@@ -6,6 +6,7 @@
 
 Gain the ability to analyze and monitor telemetry data by deploying the TIG stack within minutes using [Docker](https://docs.docker.com/engine/install/) and [Docker Compose](https://docs.docker.com/compose/install/).
 
+This variant of the original works on Linux (Ubuntu).
 
 
 
@@ -49,11 +50,11 @@ docker-compose up -d
 ```
 ## Docker Images Used (Official & Verified)
 
-[**Telegraf**](https://hub.docker.com/_/telegraf) / `1.19`
+[**Telegraf**](https://hub.docker.com/_/telegraf) / `1.32`
 
-[**InfluxDB**](https://hub.docker.com/_/influxdb) / `2.1.1`
+[**InfluxDB**](https://hub.docker.com/_/influxdb) / `2.7.10`
 
-[**Grafana-OSS**](https://hub.docker.com/r/grafana/grafana-oss) / `8.4.3`
+[**Grafana-OSS**](https://hub.docker.com/r/grafana/grafana-oss) / `11.2.2-ubuntu`
 
 
 
